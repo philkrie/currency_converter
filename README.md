@@ -1,4 +1,4 @@
 currency_converter
 ==================
 
-Simple currency converter for Android. To be redone.
+Simple currency converter for Android.
