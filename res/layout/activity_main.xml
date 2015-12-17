@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	tools:context="${packageName}.${activityClass}" >
+
+    <Spinner
+        android:id="@+id/currencySpinner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/currencySpinner1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp" />
+
+    <Spinner
+        android:id="@+id/currencySpinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:id="@+id/currencyEditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/currencySpinner1"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/default_number" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/currencyImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/currencyEditText1"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/canada" />
+
+    <ImageView
+        android:id="@+id/currencyImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/currencyEditText2"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/canada" />
+
+    <EditText
+        android:id="@+id/currencyEditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/currencySpinner2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <ImageButton
+        android:id="@+id/swapImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#99FFFFFF"
+        android:contentDescription="@string/desc"
+        android:rotation="90"
+        android:src="@drawable/ic_action_repeat" />
+
+    <TextView
+        android:id="@+id/internetNotificationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="12sp" />
+
+</RelativeLayout>

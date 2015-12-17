@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Currency Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Country</string>
+    
+    <string-array name="currency_array">
+        <item >United States of America - USD ($)</item>
+        <item >European Union - EUR (€)</item>
+        <item >Canada - CAD ($)</item>
+        <item >United Kingdom - GBP (£)</item>
+        <item >Australia - AUD ($)</item>
+        <item >Brazil - BRL (R$)</item>
+        <item >Bulgaria - BGN (лв)</item>
+        <item >China - CNY (¥)</item>
+        <item >Croatia - HRK (kn)</item>
+        <item >Czech Republic - CZK (Kč)</item>
+        <item >Denmark - DKK (kr)</item>
+        <item >Hong Kong - HKD ($)</item>
+        <item >Hungary - HUF (Ft)</item>
+        <item >India - INR (₹)</item>
+        <item >Indonesia - IDR (Rp)</item>
+        <item >Israel - ILS (₪)</item>
+        <item >Japan - JPY (¥)</item>
+        <item >Lithuania - LTL (Lt)</item>
+        <item >Malaysia - MYR (RM)</item>
+        <item >Mexico - MXN ($)</item>
+        <item >New Zealand - NZD ($)</item>
+        <item >Norway - NOK (kr)</item>
+        <item >Philippines - PHP (₱)</item>
+        <item >Poland - PLN (zł)</item>
+        <item >Romania - RON (lei)</item>
+        <item >Russian Federation - RUB (руб)</item>
+        <item >Singapore - SGD ($)</item>
+        <item >South Africa - ZAR (R)</item>
+        <item >South Korea - KRW (₩)</item>
+        <item >Sweden - SEK (kr)</item>
+        <item >Switzerland - CHF (CHF)</item>
+        <item >Thailand - THB (฿)</item>
+        <item >Turkey - TRY (₺)</item>
+
+    </string-array>
+        <string name="money_default">0</string>
+        <string name="default_number">0</string>
+        <string name="about_menu">About</string>
+        <string name="pref_rounding_title">Enable Conversion Rounding</string>
+        <string name="pref_rounding_summary">Rounds conversions to 2 decimal places</string>
+        <string name="about_string">Currency Converter by Phillip Kriegel</string>
+        <string name="about_courtesy">Conversion rates courtesy of the European Central Bank</string>
+        <string name="about_title">About</string>
+        <string name="settings_title">Settings</string>
+        <string name="pref_native_title">Native Language</string>
+        <string name="native_language_summary">Displays country names in the native language</string>
+        <string-array name="currency_array_native">
+             <item >United States of America - USD ($)</item>
+        <item >European Union - EUR (€)</item>
+        <item >Canada - CAD ($)</item>
+        <item >United Kingdom - GBP (£)</item>
+        <item >Australia - AUD ($)</item>
+        <item >Brasil - BRL (R$)</item>
+        <item >България - BGN (лв)</item>
+        <item >中國 - CNY (¥)</item>
+        <item >Hrvatska - HRK (kn)</item>
+        <item >Česká Republika - CZK (Kč)</item>
+        <item >Danmark - DKK (kr)</item>
+        <item >香港 - HKD ($)</item>
+        <item >Magyarország - HUF (Ft)</item>
+        <item >Bhārat Gaṇarājya - INR (₹)</item>
+        <item >Republik Indonesia - IDR (Rp)</item>
+        <item >מְדִינַת יִשְׂרָאֵל - ILS (₪)</item>
+        <item >日本  - JPY (¥)</item>
+        <item >Lietuva - LTL (Lt)</item>
+        <item >Malaysia - MYR (RM)</item>
+        <item >México - MXN ($)</item>
+        <item >New Zealand - NZD ($)</item>
+        <item >Norge - NOK (kr)</item>
+        <item >Pilipinas - PHP (₱)</item>
+        <item >Polska - PLN (zł)</item>
+        <item >România - RON (lei)</item>
+        <item >Российская Федерация - RUB (руб)</item>
+        <item >Singapore - SGD ($)</item>
+        <item >South Africa - ZAR (R)</item>
+        <item >대한민국 - KRW (₩)</item>
+        <item >Sverige - SEK (kr)</item>
+        <item >Schweiz - CHF (CHF)</item>
+        <item >ประเทศไทย - THB (฿)</item>
+        <item >Türkiye - TRY (₺)</item>
+        </string-array>
+        
+
+</resources>
